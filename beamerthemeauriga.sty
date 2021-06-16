@@ -24,7 +24,9 @@
   UprightFont=*-Regular,
   ItalicFont=*-Italic,
   BoldFont=*-Bold,
-  BoldItalicFont=*-BoldItalic
+  BoldItalicFont=*-BoldItalic,
+  SmallCapsFont=Source Sans Pro,
+  SmallCapsFeatures={Letters=SmallCaps}
 ]
 \setmonofont{Hack}
 
@@ -89,6 +91,7 @@
     \begin{centering}
         \vskip5ex plus 1filll
         {\usebeamerfont{title page title}\usebeamercolor[fg]{title page}\inserttitle\\[1.5ex]}
+        {\usebeamerfont{title page subtitle}\usebeamercolor[fg]{title page}\insertsubtitle\\[1.5ex]}
         {\usebeamerfont{title page author}\usebeamercolor[fg]{title page}\insertauthor\\[2ex]}
         {\usebeamerfont{title page institute}\usebeamercolor[fg]{title page}\insertinstitute\\[1ex]}
         \vskip0pt plus 1filll
